@@ -6,6 +6,7 @@ class Teacher < User
 
   def teach
     words =  KNOWLEDGE.sample(1)
+    puts words
     words
   end
   
